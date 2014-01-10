@@ -1,4 +1,5 @@
 Knox = Meteor.require("knox");
+var Future = Meteor.require('fibers/future');
 
 var knox;
 var S3;
